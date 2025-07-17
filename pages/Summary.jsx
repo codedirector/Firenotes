@@ -170,7 +170,7 @@ const Summary = () => {
   };
 
   return (
-    <div className="bg-[url('./img/239.jpg')] bg-no-repeat bg-cover bg-black text-white px-4 py-12">
+    <div className="bg-[url('/img/239.jpg')] bg-no-repeat bg-cover bg-black text-white px-4 py-12">
       <div className="flex items-center justify-center underline text-3xl sm:text-4xl font-mono mb-10 text-center">
         From Text to Takeaways
       </div>

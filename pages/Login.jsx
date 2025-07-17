@@ -22,14 +22,13 @@ const Login = () => {
       toast.success("Login Successful");
       // console.log("Logged in user:", userCredential.user);
       navigate('/dashboard')
-    } catch (error) {
-      console.log("hello")
-      toast.error("Login Failed: " + error.message);
+    } catch (error) { 
+      toast.error("Invalid Login Credentials" );
       console.error("Login error:", error.message);
     }
   };
   return (
-    <div className="bg-[url('./img/239.jpg')] bg-no-repeat bg-cover h-svh flex flex-col justify-center items-center text-white bg-black">
+    <div className="bg-[url('/img/239.jpg')] bg-no-repeat bg-cover h-svh flex flex-col justify-center items-center text-white bg-black">
   <div className="flex items-center justify-center underline text-4xl font-mono mb-10">
   Login
 </div>

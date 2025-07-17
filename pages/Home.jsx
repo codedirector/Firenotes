@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="text-white bg-black">
       <div className="relative flex flex-col justify-center items-center px-4 py-20 min-h-screen">
-        <div className="absolute inset-0 bg-[url('./img/grid4.png')] bg-cover bg-no-repeat bg-center z-0"></div>
+        <div className="absolute inset-0 bg-[url('/img/grid4.png')] bg-cover bg-no-repeat bg-center z-0"></div>
 
         <div className="relative z-10 text-center">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl mb-6 leading-tight">
@@ -40,10 +40,10 @@ const Home = () => {
         </div>
 
         <div className="flex flex-wrap justify-center gap-6 px-4">
-          <div className="w-24 h-24 rounded-full border-2 bg-[url('./img/react.jpg')] bg-center bg-cover bg-no-repeat"></div>
-          <div className="w-24 h-24 rounded-full border-2 bg-[url('./img/fire.png')] bg-center bg-cover bg-no-repeat"></div>
-          <div className="w-24 h-24 rounded-full border-2 bg-[url('./img/motion.jpeg')] bg-center bg-cover bg-no-repeat"></div>
-          <div className="w-24 h-24 rounded-full border-2 bg-[url('./img/tail.jpeg')] bg-center bg-cover bg-no-repeat"></div>
+          <div className="w-24 h-24 rounded-full border-2 bg-[url('/img/react.jpg')] bg-center bg-cover bg-no-repeat"></div>
+          <div className="w-24 h-24 rounded-full border-2 bg-[url('/img/fire.png')] bg-center bg-cover bg-no-repeat"></div>
+          <div className="w-24 h-24 rounded-full border-2 bg-[url('/img/motion.jpeg')] bg-center bg-cover bg-no-repeat"></div>
+          <div className="w-24 h-24 rounded-full border-2 bg-[url('/img/tail.jpeg')] bg-center bg-cover bg-no-repeat"></div>
         </div>
       </div>
 

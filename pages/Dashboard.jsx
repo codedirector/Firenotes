@@ -48,7 +48,7 @@ const Dashboard = () => {
     }
   };
   return (
-    <div className="bg-[url('./img/239.jpg')] bg-no-repeat bg-cover h-svh flex flex-col  items-center px-4 py-10 bg-black text-white ">
+    <div className="bg-[url('/img/239.jpg')] bg-no-repeat bg-cover h-svh flex flex-col  items-center px-4 py-10 bg-black text-white ">
       <div>
         <h1 className="font-bold text-4xl mb-2">Dashboard</h1>
         <p className="text-lg  text-gray-300 mb-6">

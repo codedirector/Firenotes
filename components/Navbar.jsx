@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className="flex justify-center items-center font-medium bg-black">
       <div
         className="border-3 flex flex-col sm:flex-row justify-between items-center 
-        relative bg-[url('./img/dot4.png')] bg-center bg-cover text-white mt-8  px-3 mb-2 rounded-4xl bg-white/18"
+        relative bg-[url('/img/dot4.png')] bg-center bg-cover text-white mt-8  px-3 mb-2 rounded-4xl bg-white/18"
       >
         <div className="px-4 sm:px-7 py-2 mb-2 sm:mb-0 w-full flex justify-between items-center">
           <Link to="/">🔥FireNotes</Link>
