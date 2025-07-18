@@ -16,7 +16,7 @@ const SignUp = () => {
       toast.error("All fields are required");
       return;
     }
-    if(password.trim.length<6)
+    if(password.length<6)
     {
        toast.error("Password should be of 6 chars");
       return;
@@ -30,7 +30,7 @@ const SignUp = () => {
       await updateProfile(userCredential.user, {
         displayName: name,
       });
-      navigate("/login");
+      navigate("/");
       toast.success("SignUp Successful");
       //   console.log("User created:", userCredential.user);
     } catch (error) {
