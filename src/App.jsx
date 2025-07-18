@@ -8,7 +8,7 @@ import Dashboard from "../pages/Dashboard"
 import { Toaster } from 'react-hot-toast';
 import NotFound from "../pages/NotFound"
 import Protectedr from "../routes/Protectedr"
-import Cursor from "../motion/cursor"
+import Cursor from "../motion/Cursor"
 const App = () => {
   return (
     <div>
