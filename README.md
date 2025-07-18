@@ -27,7 +27,7 @@
 
 ## 📸 Screenshots
 
-public/img/Screenshot 2025-07-17 184457.png 
+![alt text](<public/img/Screenshot 2025-07-17 184457.png>)
 
 ---
 
